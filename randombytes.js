@@ -10,7 +10,7 @@ var randombytes = (function () {
   }
 
   function nodeBytes (out, n) {
-    out.set(crypto.randomBytes(n))
+    new Uint8Array(out.buffer, 0, n).set(crypto.randomBytes(n))
   }
 
   function noImpl () {
