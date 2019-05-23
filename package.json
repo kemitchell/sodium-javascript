@@ -7,6 +7,7 @@
     "blake2b": "^2.1.1",
     "nanoassert": "^1.0.0",
     "siphash24": "^1.0.1",
+    "xchacha20-js": "^0.3.0",
     "xsalsa20": "^1.0.0"
   },
   "devDependencies": {
